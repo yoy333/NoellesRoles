@@ -7,7 +7,7 @@ import dev.doctor4t.wathe.cca.PlayerPoisonComponent;
 import dev.doctor4t.wathe.cca.PlayerShopComponent;
 import dev.doctor4t.wathe.client.gui.RoleAnnouncementTexts;
 import dev.doctor4t.wathe.game.GameFunctions;
-import dev.doctor4t.wathe.util.AnnounceWelcomePayload;
+import dev.doctor4t.wathe.network.AnnounceWelcomePayload;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.fabricmc.loader.impl.util.log.Log;
 import net.fabricmc.loader.impl.util.log.LogCategory;

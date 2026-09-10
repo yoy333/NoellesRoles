@@ -4,6 +4,7 @@ import dev.doctor4t.wathe.cca.GameWorldComponent;
 import dev.doctor4t.wathe.cca.PlayerPsychoComponent;
 import dev.doctor4t.wathe.game.GameConstants;
 import dev.doctor4t.wathe.game.GameFunctions;
+import dev.doctor4t.wathe.item.PistolItem;
 import dev.doctor4t.wathe.item.RevolverItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -17,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(RevolverItem.class)
+@Mixin(PistolItem.class)
 public abstract class FakeRevolverMixin {
 
     @Inject(method = "getGunTarget", at = @At("HEAD"), cancellable = true)

@@ -5,7 +5,6 @@ import dev.doctor4t.wathe.game.GameFunctions;
 import dev.doctor4t.wathe.index.WatheCosmetics;
 import dev.doctor4t.wathe.index.WatheSounds;
 import dev.doctor4t.wathe.item.KnifeItem;
-import dev.doctor4t.wathe.util.KnifeStabPayload;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;

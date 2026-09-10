@@ -8,7 +8,6 @@ import dev.doctor4t.wathe.cca.PlayerPoisonComponent;
 import dev.doctor4t.wathe.client.WatheClient;
 import dev.doctor4t.wathe.client.gui.RoundTextRenderer;
 import dev.doctor4t.wathe.game.GameFunctions;
-import dev.doctor4t.wathe.util.AnnounceWelcomePayload;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.loader.impl.util.log.Log;
 import net.fabricmc.loader.impl.util.log.LogCategory;

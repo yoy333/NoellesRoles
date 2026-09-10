@@ -15,7 +15,7 @@ import dev.doctor4t.wathe.game.GameFunctions;
 import dev.doctor4t.wathe.index.WatheItems;
 import dev.doctor4t.wathe.index.WatheParticles;
 import dev.doctor4t.wathe.index.WatheSounds;
-import dev.doctor4t.wathe.util.AnnounceWelcomePayload;
+import dev.doctor4t.wathe.network.AnnounceWelcomePayload;
 import dev.doctor4t.wathe.util.ShopEntry;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
